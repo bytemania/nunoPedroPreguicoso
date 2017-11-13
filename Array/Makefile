@@ -9,4 +9,4 @@ string_array.o: string_array.c string_array.h
 	$(CC) $(CFLAGS) -c string_array.c string_array.h
 
 clean:
-	rm main *.o
+	rm -f main *.o core *.gch

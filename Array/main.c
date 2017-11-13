@@ -32,13 +32,16 @@ int main(void)
 
     puts("------------------------------");
 
-const char * search[] = {"ONE", "TWO", "THREE", "FOUR"};
+    const char *search[] = {"ONE", "TWO", "THREE", "FOUR"};
 
     int *results = binary_search_parallel(strArray, len, search, 4);
 
     for (int i = 0; i < 4; i++)
         printf("%d\n", results[i]);
 
+    //TODO verify this free with electric fence
+    free(strArray);
+    free(results)
 
     return 0;
 }
