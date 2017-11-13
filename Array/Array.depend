@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1510606443 source:/home/sergio/Documents/src/np/Array/main.c
+	<stdio.h>
+	<stdlib.h>
+	"string_array.h"
+
+1510605010 /home/sergio/Documents/src/np/Array/string_array.h
+
+1510605347 source:/home/sergio/Documents/src/np/Array/string_array.c
+	<stdlib.h>
+
