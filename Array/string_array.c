@@ -9,7 +9,10 @@
 #include <pthread.h>
 
 const char ** init_array(const unsigned int len) {
-    return (const char **) calloc(len, sizeof(char *));
+    if (len <= 0)
+        return NULL;
+    else
+        return (const char **) calloc(len, sizeof(char *));
 }
 
 void swap(const char **str1, const char **str2) {

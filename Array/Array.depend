@@ -1,11 +1,21 @@
 # depslib dependency file v1.0
-1510606443 source:/home/sergio/Documents/src/np/Array/main.c
+1511302901 source:/home/sergio/Documents/src/np/Array/main.c
 	<stdio.h>
 	<stdlib.h>
+	<time.h>
 	"string_array.h"
+	"kbtree.h"
 
-1510605010 /home/sergio/Documents/src/np/Array/string_array.h
+1510612315 /home/sergio/Documents/src/np/Array/string_array.h
 
-1510605347 source:/home/sergio/Documents/src/np/Array/string_array.c
+1510688131 source:/home/sergio/Documents/src/np/Array/string_array.c
+	<stdio.h>
 	<stdlib.h>
+	<string.h>
+	<pthread.h>
+
+1511301112 /home/sergio/Documents/src/np/Array/kbtree.h
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
 
